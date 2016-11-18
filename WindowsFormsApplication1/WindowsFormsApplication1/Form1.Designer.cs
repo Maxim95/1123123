@@ -42,11 +42,11 @@
             this.tP2_textBox2 = new System.Windows.Forms.TextBox();
             this.tP2_textBox1 = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tP3_button2 = new System.Windows.Forms.Button();
-            this.tP3_label1 = new System.Windows.Forms.Label();
-            this.tP3_textBox1 = new System.Windows.Forms.TextBox();
-            this.tP3_textBox2 = new System.Windows.Forms.TextBox();
             this.tP3_textBox3 = new System.Windows.Forms.TextBox();
+            this.tP3_textBox2 = new System.Windows.Forms.TextBox();
+            this.tP3_textBox1 = new System.Windows.Forms.TextBox();
+            this.tP3_label1 = new System.Windows.Forms.Label();
+            this.tP3_button2 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -182,6 +182,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.BackColor = System.Drawing.Color.Gainsboro;
             this.tabPage3.Controls.Add(this.tP3_textBox3);
             this.tabPage3.Controls.Add(this.tP3_textBox2);
             this.tabPage3.Controls.Add(this.tP3_textBox1);
@@ -193,18 +194,27 @@
             this.tabPage3.Size = new System.Drawing.Size(559, 407);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Умножение";
-            this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // tP3_button2
+            // tP3_textBox3
             // 
-            this.tP3_button2.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tP3_button2.Location = new System.Drawing.Point(234, 239);
-            this.tP3_button2.Name = "tP3_button2";
-            this.tP3_button2.Size = new System.Drawing.Size(114, 43);
-            this.tP3_button2.TabIndex = 0;
-            this.tP3_button2.Text = "Вычислить";
-            this.tP3_button2.UseVisualStyleBackColor = true;
-            this.tP3_button2.Click += new System.EventHandler(this.tP3_button2_Click);
+            this.tP3_textBox3.Location = new System.Drawing.Point(194, 330);
+            this.tP3_textBox3.Name = "tP3_textBox3";
+            this.tP3_textBox3.Size = new System.Drawing.Size(175, 21);
+            this.tP3_textBox3.TabIndex = 4;
+            // 
+            // tP3_textBox2
+            // 
+            this.tP3_textBox2.Location = new System.Drawing.Point(194, 157);
+            this.tP3_textBox2.Name = "tP3_textBox2";
+            this.tP3_textBox2.Size = new System.Drawing.Size(175, 21);
+            this.tP3_textBox2.TabIndex = 3;
+            // 
+            // tP3_textBox1
+            // 
+            this.tP3_textBox1.Location = new System.Drawing.Point(194, 92);
+            this.tP3_textBox1.Name = "tP3_textBox1";
+            this.tP3_textBox1.Size = new System.Drawing.Size(175, 21);
+            this.tP3_textBox1.TabIndex = 2;
             // 
             // tP3_label1
             // 
@@ -216,26 +226,16 @@
             this.tP3_label1.TabIndex = 1;
             this.tP3_label1.Text = "Введите 2 числа";
             // 
-            // tP3_textBox1
+            // tP3_button2
             // 
-            this.tP3_textBox1.Location = new System.Drawing.Point(194, 92);
-            this.tP3_textBox1.Name = "tP3_textBox1";
-            this.tP3_textBox1.Size = new System.Drawing.Size(175, 21);
-            this.tP3_textBox1.TabIndex = 2;
-            // 
-            // tP3_textBox2
-            // 
-            this.tP3_textBox2.Location = new System.Drawing.Point(194, 157);
-            this.tP3_textBox2.Name = "tP3_textBox2";
-            this.tP3_textBox2.Size = new System.Drawing.Size(175, 21);
-            this.tP3_textBox2.TabIndex = 3;
-            // 
-            // tP3_textBox3
-            // 
-            this.tP3_textBox3.Location = new System.Drawing.Point(194, 330);
-            this.tP3_textBox3.Name = "tP3_textBox3";
-            this.tP3_textBox3.Size = new System.Drawing.Size(175, 21);
-            this.tP3_textBox3.TabIndex = 4;
+            this.tP3_button2.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tP3_button2.Location = new System.Drawing.Point(234, 239);
+            this.tP3_button2.Name = "tP3_button2";
+            this.tP3_button2.Size = new System.Drawing.Size(114, 43);
+            this.tP3_button2.TabIndex = 0;
+            this.tP3_button2.Text = "Вычислить";
+            this.tP3_button2.UseVisualStyleBackColor = true;
+            this.tP3_button2.Click += new System.EventHandler(this.tP3_button2_Click);
             // 
             // Form1
             // 
