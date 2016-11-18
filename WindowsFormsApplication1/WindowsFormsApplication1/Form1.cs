@@ -43,5 +43,10 @@ namespace WindowsFormsApplication1
             c = a * b;
             tP3_textBox3.Text = c.ToString();
         }
+
+        private void button_tp1l_Click(object sender, EventArgs e)
+        {
+            tP1_textBox3.Text = "";
+        }
     }
 }
