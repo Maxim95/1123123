@@ -34,5 +34,14 @@ namespace WindowsFormsApplication1
             c = a - b;
             tP2_textBox3.Text = c.ToString();
         }
+
+        private void tP3_button2_Click(object sender, EventArgs e)
+        {
+            int a, b, c;
+            a = Convert.ToInt32(tP3_textBox1.Text);
+            b = Convert.ToInt32(tP3_textBox2.Text);
+            c = a - b;
+            tP3_textBox3.Text = c.ToString();
+        }
     }
 }
