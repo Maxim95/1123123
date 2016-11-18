@@ -48,6 +48,7 @@
             this.tP3_label1 = new System.Windows.Forms.Label();
             this.tP3_button2 = new System.Windows.Forms.Button();
             this.button_tp1l = new System.Windows.Forms.Button();
+            this.button2323_tpl122 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -128,6 +129,7 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Silver;
+            this.tabPage2.Controls.Add(this.button2323_tpl122);
             this.tabPage2.Controls.Add(this.tP2_textBox3);
             this.tabPage2.Controls.Add(this.tP2_label1);
             this.tabPage2.Controls.Add(this.tP2_button2);
@@ -249,6 +251,16 @@
             this.button_tp1l.UseVisualStyleBackColor = true;
             this.button_tp1l.Click += new System.EventHandler(this.button_tp1l_Click);
             // 
+            // button2323_tpl122
+            // 
+            this.button2323_tpl122.Location = new System.Drawing.Point(48, 328);
+            this.button2323_tpl122.Name = "button2323_tpl122";
+            this.button2323_tpl122.Size = new System.Drawing.Size(75, 23);
+            this.button2323_tpl122.TabIndex = 5;
+            this.button2323_tpl122.Text = "С2";
+            this.button2323_tpl122.UseVisualStyleBackColor = true;
+            this.button2323_tpl122.Click += new System.EventHandler(this.button2323_tpl122_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
@@ -291,6 +303,7 @@
         private System.Windows.Forms.Label tP3_label1;
         private System.Windows.Forms.Button tP3_button2;
         private System.Windows.Forms.Button button_tp1l;
+        private System.Windows.Forms.Button button2323_tpl122;
     }
 }
 

@@ -48,5 +48,10 @@ namespace WindowsFormsApplication1
         {
             tP1_textBox3.Text = "";
         }
+
+        private void button2323_tpl122_Click(object sender, EventArgs e)
+        {
+            tP2_textBox3.Text = "";
+        }
     }
 }
