@@ -47,6 +47,8 @@
             this.tP3_textBox1 = new System.Windows.Forms.TextBox();
             this.tP3_label1 = new System.Windows.Forms.Label();
             this.tP3_button2 = new System.Windows.Forms.Button();
+            this.button_tp1l = new System.Windows.Forms.Button();
+            this.button2323_tpl122 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -67,6 +69,7 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.LightBlue;
+            this.tabPage1.Controls.Add(this.button_tp1l);
             this.tabPage1.Controls.Add(this.tP1_textBox3);
             this.tabPage1.Controls.Add(this.tP1_textBox2);
             this.tabPage1.Controls.Add(this.tP1_textBox1);
@@ -126,6 +129,7 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Silver;
+            this.tabPage2.Controls.Add(this.button2323_tpl122);
             this.tabPage2.Controls.Add(this.tP2_textBox3);
             this.tabPage2.Controls.Add(this.tP2_label1);
             this.tabPage2.Controls.Add(this.tP2_button2);
@@ -182,7 +186,6 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.BackColor = System.Drawing.Color.Gainsboro;
             this.tabPage3.Controls.Add(this.tP3_textBox3);
             this.tabPage3.Controls.Add(this.tP3_textBox2);
             this.tabPage3.Controls.Add(this.tP3_textBox1);
@@ -194,6 +197,7 @@
             this.tabPage3.Size = new System.Drawing.Size(559, 407);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Умножение";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // tP3_textBox3
             // 
@@ -237,6 +241,26 @@
             this.tP3_button2.UseVisualStyleBackColor = true;
             this.tP3_button2.Click += new System.EventHandler(this.tP3_button2_Click);
             // 
+            // button_tp1l
+            // 
+            this.button_tp1l.Location = new System.Drawing.Point(33, 313);
+            this.button_tp1l.Name = "button_tp1l";
+            this.button_tp1l.Size = new System.Drawing.Size(75, 37);
+            this.button_tp1l.TabIndex = 5;
+            this.button_tp1l.Text = "С1";
+            this.button_tp1l.UseVisualStyleBackColor = true;
+            this.button_tp1l.Click += new System.EventHandler(this.button_tp1l_Click);
+            // 
+            // button2323_tpl122
+            // 
+            this.button2323_tpl122.Location = new System.Drawing.Point(48, 328);
+            this.button2323_tpl122.Name = "button2323_tpl122";
+            this.button2323_tpl122.Size = new System.Drawing.Size(75, 23);
+            this.button2323_tpl122.TabIndex = 5;
+            this.button2323_tpl122.Text = "С2";
+            this.button2323_tpl122.UseVisualStyleBackColor = true;
+            this.button2323_tpl122.Click += new System.EventHandler(this.button2323_tpl122_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
@@ -278,6 +302,8 @@
         private System.Windows.Forms.TextBox tP3_textBox1;
         private System.Windows.Forms.Label tP3_label1;
         private System.Windows.Forms.Button tP3_button2;
+        private System.Windows.Forms.Button button_tp1l;
+        private System.Windows.Forms.Button button2323_tpl122;
     }
 }
 
