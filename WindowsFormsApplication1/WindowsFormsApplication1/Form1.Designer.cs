@@ -62,7 +62,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(559, 377);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "Сложение";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
@@ -77,11 +77,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(251, 206);
+            this.button1.Location = new System.Drawing.Point(239, 208);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(99, 38);
             this.button1.TabIndex = 0;
-            this.button1.Text = "tP1_button1";
+            this.button1.Text = "Вычислить";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
