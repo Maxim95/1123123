@@ -58,6 +58,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.LightBlue;
             this.tabPage1.Controls.Add(this.tP1_textBox3);
             this.tabPage1.Controls.Add(this.tP1_textBox2);
             this.tabPage1.Controls.Add(this.tP1_textBox1);
@@ -69,10 +70,10 @@
             this.tabPage1.Size = new System.Drawing.Size(559, 377);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Сложение";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
+            this.tabPage2.BackColor = System.Drawing.Color.Silver;
             this.tabPage2.Controls.Add(this.tP2_textBox3);
             this.tabPage2.Controls.Add(this.tP2_label1);
             this.tabPage2.Controls.Add(this.tP2_button2);
@@ -84,7 +85,6 @@
             this.tabPage2.Size = new System.Drawing.Size(559, 377);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Вычитание";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
