@@ -40,7 +40,7 @@ namespace WindowsFormsApplication1
             int a, b, c;
             a = Convert.ToInt32(tP3_textBox1.Text);
             b = Convert.ToInt32(tP3_textBox2.Text);
-            c = a - b;
+            c = a * b;
             tP3_textBox3.Text = c.ToString();
         }
     }
