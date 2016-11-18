@@ -31,7 +31,7 @@ namespace WindowsFormsApplication1
             int a, b, c;
             a = Convert.ToInt32(tP2_textBox1.Text);
             b = Convert.ToInt32(tP2_textBox2.Text);
-            c = a + b;
+            c = a - b;
             tP2_textBox3.Text = c.ToString();
         }
     }
