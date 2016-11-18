@@ -142,11 +142,11 @@
             // 
             // tP2_button2
             // 
-            this.tP2_button2.Location = new System.Drawing.Point(236, 215);
+            this.tP2_button2.Location = new System.Drawing.Point(237, 208);
             this.tP2_button2.Name = "tP2_button2";
             this.tP2_button2.Size = new System.Drawing.Size(110, 44);
             this.tP2_button2.TabIndex = 2;
-            this.tP2_button2.Text = "button2";
+            this.tP2_button2.Text = "Вычислить";
             this.tP2_button2.UseVisualStyleBackColor = true;
             this.tP2_button2.Click += new System.EventHandler(this.button2_Click);
             // 
